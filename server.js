@@ -36,5 +36,5 @@ app.get('/', function(req, res) {
 
 app.listen(port, function() {
     console.log('Node js Express js Tutorial at port', port);
-    // console.log(db);
+    // console.log('Message from DB:',db);
 });
